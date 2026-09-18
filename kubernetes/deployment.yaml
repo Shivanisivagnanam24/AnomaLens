@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: anomalens-app
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: anomalens-app
+
+  template:
+    metadata:
+      labels:
+        app: anomalens-app
+
+    spec:
+      containers:
+        - name: anomalens-app
+          image: anomalens-app:v1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5000

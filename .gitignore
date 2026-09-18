@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated ML models
+*.pkl
+
+# Raw experimental logs
+data/raw_logs.txt
+data/baseline_raw_logs.txt
+data/prediction_raw_logs.txt
+
+# Local collection state
+data/last_collection.txt
