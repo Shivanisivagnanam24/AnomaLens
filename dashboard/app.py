@@ -496,4 +496,4 @@ st.caption(
     "Current predictions represent patterns learned "
     "from controlled simulated Kubernetes application "
     "failure scenarios."
-)
+)   
