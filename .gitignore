@@ -32,4 +32,12 @@ data/baseline_raw_logs.txt
 data/prediction_raw_logs.txt
 
 # Local collection state
+data/last_collection.txt.venv/
+venv/
+__pycache__/
+*.pyc
+data/alert_history.json
+.env
+.env.*
+!.env.example
 data/last_collection.txt

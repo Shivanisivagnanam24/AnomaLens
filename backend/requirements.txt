@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+kubernetes
+requests
+joblib
+scikit-learn
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/alert_history.json
+.env
+.env.*
+!.env.example
